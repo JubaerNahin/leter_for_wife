@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>প্রিয় জান্নাত ❤️</title>
+    <meta name="description" content="তোমার জন্য একটি বিশেষ চিঠি।">
+
+    <!-- Google Fonts for Bangla & Cute Aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;500;600;700&family=Caveat:wght@500;600;700&family=Dancing+Script:wght@600;700&family=Fredoka:wght@400;500;600&family=Hind+Siliguri:wght@400;500;600;700&family=Outfit:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Background Canvas for Ambient Sparks -->
+    <canvas id="ambient-canvas"></canvas>
+
+    <!-- Real Tahsan - Tomar Amar Audio Track -->
+    <audio id="bg-music" loop preload="auto">
+        <source src="music.webm" type="audio/webm">
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Sound Toggle -->
+    <button id="sound-toggle" class="sound-btn" aria-label="Toggle Sound">
+        <span id="sound-icon">🎵</span> Music On
+    </button>
+
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- Jumping Envelope Container -->
+        <div class="envelope-scene" id="envelope-scene">
+            <div class="envelope-wrapper bouncing" id="envelope-wrapper" title="চিঠিটি খুলতে ক্লিক করো!">
+
+                <!-- Envelope Back Inside -->
+                <div class="envelope-back"></div>
+
+                <!-- Preview Paper inside Envelope -->
+                <div class="envelope-paper-preview" id="paper-preview">
+                    <span class="preview-heart">💌</span>
+                </div>
+
+                <!-- Envelope Front Pocket -->
+                <div class="envelope-pocket"></div>
+
+                <!-- Envelope Top Flap with Wax Seal -->
+                <div class="envelope-flap" id="envelope-flap">
+                    <div class="wax-seal" id="wax-seal">
+                        <div class="seal-inner">
+                            <span class="seal-heart">❤</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Hint Prompt -->
+            <div class="tap-hint" id="tap-hint">
+                <span class="hint-pulse"></span>
+                <p>চিঠিটি খুলতে খামে ক্লিক করো ✨</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Full Letter Popup Modal (Unconstrained, Centered on Viewport) -->
+    <div class="letter-overlay" id="letter-overlay">
+        <article class="letter-card" id="letter-card">
+            <div class="cute-ribbon">🎀</div>
+            <div class="letter-stamp">💌</div>
+
+            <!-- Cute Decorative Background Sparkles -->
+            <div class="letter-sticker sticker-top-left">🌸</div>
+            <div class="letter-sticker sticker-top-right">✨</div>
+            <div class="letter-sticker sticker-bottom-left">💖</div>
+
+            <h1 class="letter-title" id="letter-title">প্রিয় জান্নাত,</h1>
+
+            <div class="heart-divider">
+                <span>💕</span><span>•</span><span>💖</span><span>•</span><span>💕</span>
+            </div>
+
+            <div class="letter-body" id="letter-body">
+                <p>এই বিশেষ চিঠি দিবসে আমাকে চিঠিটা দেওয়ার জন্য ধন্যবাদ। আমি ভাষায় প্রকাশ করতে পারব না আমি তোমাকে কতটা
+                    ভালোবাসি। তুমি খুব মিষ্টি, খুব আদুরে, খুব যত্নশীল এবং খুব সুন্দর। আমার কঠিনতম সময়ে তোমার ভালোবাসা
+                    দিয়ে তুমি সবসময় আমাকে বিশেষ অনুভব করাও। হ্যাঁ, এখন আমি আমার কঠিনতম সময়ের মধ্যে আছি এবং তুমি এখনও
+                    আমাকে আগের মতোই ভালোবাসো এবং সমর্থন করো। তোমাকে আমার স্ত্রী হিসেবে পেয়ে আমি সত্যিই ভাগ্যবান। আমি
+                    আমার কথা রাখার জন্য যথাসাধ্য চেষ্টা করব। আমি আমার সেরাটা দিয়ে চেষ্টা করব যাতে আমাদের সমস্ত স্বপ্ন
+                    পূরণ হয়। আমি তোমাকে সবচেয়ে বেশি ভালোবাসি। তুমি আমার কাছে অনেক বিশেষ, আমি সবসময় তোমাকে খুশি রাখতে
+                    চাই কিন্তু দুর্ভাগ্যবশত আমার বর্তমান পরিস্থিতির কারণে এখন আমি তা করতে পারছি না। আমি জানি তুমি কঠিন
+                    সময়ের মধ্যে দিয়ে যাচ্ছ। তুমি আমার জন্য অনেক ত্যাগ স্বীকার করছ। আমি তোমার সমস্ত ত্যাগের প্রতিদান
+                    দেওয়ার চেষ্টা করব। আমি তোমাকে অসীমভাবে ভালোবাসব এবং আমাদের সমস্ত স্বপ্ন পূরণ করার চেষ্টা করব।
+                    ইনশাআল্লাহ, শীঘ্রই আমাদের সমস্ত কষ্ট দূর হয়ে যাবে এবং আমরা আমাদের কাঙ্ক্ষিত জীবনযাপন করব।</p>
+
+                <p>ততদিন পর্যন্ত, এখন যেমন আমার পাশে আছো, ঠিক তেমনই আমার পাশে থেকো। আমি তোমাকে অনেক ভালোবাসি।</p>
+            </div>
+
+            <div class="heart-divider">
+                <span>✨</span><span>•</span><span>🌸</span><span>•</span><span>✨</span>
+            </div>
+
+            <div class="letter-signature" id="letter-signature">
+                <span>তোমার স্নেহময় স্বামী,</span>
+                <h2 id="letter-sender">জুবায়ের ❤️</h2>
+            </div>
+
+            <!-- Interactive Buttons inside Letter -->
+            <div class="letter-actions">
+                <button class="btn btn-love" id="btn-send-love">💖 Send a Kiss</button>
+                <button class="btn btn-close" id="btn-close-letter">✉️ Put Back</button>
+            </div>
+        </article>
+    </div>
+
+    <!-- Heart Explosion Canvas -->
+    <canvas id="burst-canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
